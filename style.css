@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+}
+.img {
+  background-image: url("png2.png");
+  background-color: rgb(31, 31, 32);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  font-size: 20px;
+}
+
+.btext {
+  text-align: center;
+  color: hsl(88, 79%, 42%);
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  left: 390px;
+}
+.btext a {
+  color: rgb(143, 167, 13);
+}
